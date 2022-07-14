@@ -1,0 +1,154 @@
+body {
+    font-size: 18px;
+    padding: 0;
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+
+main {
+    padding: 4rem;
+    width: 100%;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
+
+}
+
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: #747474;
+    font-family: 'Inter';
+    margin: auto;
+}
+
+.mission {
+    height: auto;
+}
+
+.missionblack {
+    font-family: 'Inter';
+    font-size: 3.5rem;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.missionorange {
+    font-family: 'Inter';
+    font-size: 3.5rem;
+    color: #f7b300;
+    padding: 0;
+    margin-top: 0;
+}
+
+.subtext {
+    font-size: 1rem;
+    font-family: "Inter";
+    color: #747474;
+    padding: 0;
+    margin: 0;
+}
+.navbar :first-child {
+    margin-right: auto;
+}
+
+.navbar :last-child {
+    margin-left: auto;
+}
+
+.signin-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.try-btn {
+    font-family: 'Inter';
+    color: white;
+    background-color: #133416;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 11rem;
+}
+
+.signin {
+    font-family: 'Inter';
+    color: #747474;
+}
+.top-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57%;
+
+}
+
+.hero {
+    width: 30%;
+}
+
+.hero > img {
+    max-width: 100%;
+}
+
+.lower-top-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lower-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.shop-logos {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lower-subtext {
+    padding-bottom: 2rem;
+}
+
+.footer {
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
