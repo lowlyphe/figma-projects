@@ -3,6 +3,7 @@ body {
     padding: 0;
     max-width: 1080px;
     margin: 0 auto;
+    background-color: #f3ede5;
 
 }
 
@@ -35,6 +36,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
+    position: relative;
     
 }
 
@@ -104,6 +106,48 @@ main {
 .signin {
     font-family: 'Inter';
     color: #747474;
+}
+
+.dropdown {
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    top: 3rem;
+    right: 6rem;
+    background-color: white;
+    z-index: 1;
+    max-width: 25rem;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.links :first-child:hover .dropdown {
+    display: flex;
+}
+
+.dropdown-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-svg {
+    margin-top: 0.4rem;
+    margin-right: 0.5rem;
+}
+
+.link-title {
+    color: #0a263f;
+    font-size: 1rem;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.link-subtext {
+    font-family: 'Inter';
+    color: #909ba3;
+    font-size: 1rem;
+    margin-top: 0.25rem;
 }
 
 .top-main {
