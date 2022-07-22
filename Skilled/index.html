@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+    </style>
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body class="container mx-auto">
+    <header class="flex my-4 mx-2 flex justify-between items-center">
+      <div><img src="/assets/logo-dark.svg" /></div>
+      <button
+        class="p-3 px-6 text-white bg-darkBlue rounded-full hover:bg-lightBlue"
+      >
+        Get Started
+      </button>
+    </header>
+    <main>
+      <section class="flex flex-col my-12 mx-auto space-y-6 md:flex-row">
+        <div class="w-1/2">
+          <h1 class="text-darkBlue text-5xl leading-tight font-extrabold">
+            Maximize skill, minimize budget
+          </h1>
+          <p class="mx-2 my-12 text-gray">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <button
+            class="mr-auto w-1/2 p-4 px-8 text-white bg-gradient-to-b from-sunset to-violet rounded-full"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="hidden md:block relative w-1/2">
+          <img
+            class="absolute left-10 bottom-0"
+            src="assets/image-hero-desktop.png"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
