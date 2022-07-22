@@ -75,11 +75,14 @@ main{
 
 .landing-btn {
     background-color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
     color: white;
     width: 12rem;
     height: 4rem;
     border-radius: 7px;
-    padding: 1.25rem;
+    padding: 0rem;
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -102,107 +105,114 @@ main{
 
 }
 
-@media (min-width: 1200px) {
+.navbar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.navbar > a {
+    text-decoration: none;
+}
+
+.nav-links-right > a {
+    text-decoration: none;
+    color: #5b5853
+}
+
+.nav-links-left > a {
+    text-decoration: none;
+    color: #5b5853
+}
+
+.nav-links-left {
+    width: 40%;
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-between;
+    text-decoration: none;
     
-body {
-    margin: 0 auto;
-    float: none;
-    padding: 0;
-    background-color: #f9f6f1;
-    max-width: 1920px;
-    display: flex;
-    justify-content: center;
 }
 
-main{
-    max-width: 80%;
-}
-
-.hidden {
-    display: none;
-}
-
-
-.flex {
-    display: flex;
-    justify-content: center;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-}
-
-.landing-left {
-    margin-top: 3rem;
-    margin-right: 12rem;
-
-    width: 55%;
-    align-items: flex-start;
-}
-
-.landing-title {
-    margin-top: 8rem;
-    margin-bottom: 0;
-    font-size: 3.75rem;
-    font-weight:bolder;
-}
-
-.landing-subtext {
-    color: #5b5853;
-    font-size: 1.25rem;
-    font-weight: 550;
-}
-
-.landing-ol {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.landing-list {
-    color: #5b5853;
-    font-size: 1.25rem;
-    list-style: none;
-    justify-content: flex-start;
-    padding-top: 1rem;
-    align-items: flex-start;
-}
-
-.checkmark {
-    padding-right: 1rem;
-}
-
-.landing-btn {
-    background-color: black;
-    color: white;
-    width: 12rem;
-    height: 4rem;
-    border-radius: 7px;
-    padding: 1.25rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.landing-logos {
-    width: 75%;
+.nav-links-right {
+    width: 50%;
+    align-items: center;
+    margin-left: auto;
     justify-content: space-between;
+    text-decoration: none;
+    
 }
 
-.logo > img {
-    width: 8rem;
+
+
+/* phones */
+@media (max-width: 600px ){
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 3rem;
+    }
+
+    main {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .landing-left {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .landing-title {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .landing-subtext {
+        font-size: 1.15rem;
+        line-height: 1.75rem;
+    }
+
+    .landing-list {
+        font-size: 1.15rem;
+    }
+
+    .landing-logos {
+        width: 100%;
+    }
+
+    .landing-right {
+        display: none;
+
+    }
+
+    .hidden {
+        display: flex;
+        margin-top: 2rem;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        height: 27rem;
+    }
+
+    .hero {
+        width: 70rem;
+        height: auto;
+    }
+
 }
 
-.landing-right {
-    justify-content: flex-start;
-    align-items: flex-start;
-    overflow: hidden;
-    width: 45%;
-
-}
-}
-
-@media (min-width: 601px) {
+/* tablet */
+@media (max-width: 1200px) {
 
     body {
         margin: 0 auto;
@@ -249,71 +259,6 @@ main{
     }
 }
 
-@media (max-width: 600px ){
-
-    body {
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    main {
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        flex-direction: column;
-    }
-    
-    .landing-left {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-    }
-
-    .landing-title {
-        margin-top: 3rem;
-        font-size: 2.5rem;
-    }
-
-    .landing-subtext {
-        font-size: 1.15rem;
-        line-height: 1.75rem;
-    }
-
-    .landing-list {
-        font-size: 1.15rem;
-    }
-
-    .landing-logos {
-        width: 100%;
-    }
-
-    .landing-right {
-        display: none;
-
-    }
-
-    .hidden {
-        display: flex;
-        margin-top: 2rem;
-        overflow-y: hidden;
-        overflow-x: visible;
-
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-        margin-right: 0;
-        height: 27rem;
-        width: 100vw;
-    }
-
-    .hero {
-        width: 70rem;
-        height: auto;
-    }
-
-}
 
 
 
