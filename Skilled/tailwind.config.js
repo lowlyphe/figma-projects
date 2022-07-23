@@ -13,9 +13,11 @@ module.exports = {
         sunset: '#ff6f48',
         violet: '#f02aa6',
         darkBlue: '#13183F',
+        blue: '#4851ff',
         lightBlue: '#666ca3',
         salmon: '#F74780',
-        gray: '#83869A'
+        gray: '#83869A',
+        offWhite: '#f2f2f2'
       },
       fontFamily: {
         'sans': 'Plus Jakarta Sans'
