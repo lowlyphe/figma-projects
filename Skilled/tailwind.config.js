@@ -17,7 +17,8 @@ module.exports = {
         lightBlue: '#666ca3',
         salmon: '#F74780',
         gray: '#83869A',
-        offWhite: '#f2f2f2'
+        offWhite: '#f2f2f2',
+        fadedPink: "#ffa7c3"
       },
       fontFamily: {
         'sans': 'Plus Jakarta Sans'
