@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ['./*.html'],
   theme: {
     screens: {
       sm: '480px',
@@ -10,10 +10,13 @@ module.exports = {
     },
     extend: {
       colors: {
-
+        red: '#fc4747',
+        black: '#10141e',
+        grayishBlue: '#5a698f',
+        darkGray: '#161d2f',
       },
       fontFamily: {
-        
+        'sans': ["Outfit Light", "Outfit Medium"]
       }
     },
   },
