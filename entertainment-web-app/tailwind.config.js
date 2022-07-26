@@ -16,7 +16,7 @@ module.exports = {
         darkGray: '#161d2f',
       },
       fontFamily: {
-        'sans': ["Outfit Light", "Outfit Medium"]
+        'sans': "Outfit"
       }
     },
   },

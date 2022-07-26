@@ -11,6 +11,11 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap");
     </style>
@@ -20,7 +25,7 @@
   <body class="bg-black">
     <!-- Navbar -->
     <nav
-      class="flex justify-between h-fit items-center sticky md:my-4 md:rounded-xl bg-darkGray px-5 md:px-2 py-3 md:flex-col md:w-20 md:mx-4"
+      class="flex justify-between h-fit items-center fixed top-0 w-screen md:my-4 md:rounded-xl bg-darkGray px-5 md:px-2 py-3 md:flex-col md:w-20 md:mx-4"
     >
       <div class="md:mb-10 md:mt-3">
         <img src="./assets/logo.svg" alt="" />
@@ -83,8 +88,20 @@
         <img src="./assets/image-avatar.png" alt="" />
       </div>
     </nav>
-
-    <!-- Display trending shows -->
+    <main class="mt-16 md:mt-8 md:ml-32">
+      <!-- search bar -->
+      <div class="flex mx-4 my-4 md:mx-0">
+        <img src="assets/icon-search.svg" alt="" />
+        <input
+          type="search"
+          class="bg-black font-light w-80 outline-none text-white ml-4 focus:border-b-2 focus:border-grayishBlue"
+          placeholder="Search for movies or TV series"
+        />
+      </div>
+      <!-- Display trending shows -->
+      <h1 class="text-2xl text-white font-light">Trending</h1>
+      <div class="flex overflow-x-auto"></div>
+    </main>
 
     <!-- Display recommended shows -->
   </body>
